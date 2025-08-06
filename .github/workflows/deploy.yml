@@ -35,11 +35,6 @@ jobs:
           SITE: 'https://rasmus-hs.github.io'
           BASE_PATH: '/herloew/'
       
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-
   deploy:
     environment:
       name: github-pages
